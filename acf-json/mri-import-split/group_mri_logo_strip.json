@@ -1,0 +1,157 @@
+﻿{
+    "key":  "group_mri_logo_strip",
+    "title":  "MRI Logo Strip",
+    "fields":  [
+                   {
+                       "key":  "field_group_mri_logo_strip_mri_logo_strip_heading",
+                       "label":  "Heading",
+                       "name":  "mri_logo_strip_heading",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Equipped with the integrations and features you need",
+                       "maxlength":  "",
+                       "placeholder":  "Enter heading",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_logo_strip_mri_logo_strip_items_mri_logo_strip_items",
+                       "label":  "Items",
+                       "name":  "mri_logo_strip_items",
+                       "aria-label":  "",
+                       "type":  "repeater",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "layout":  "row",
+                       "button_label":  "Add Row",
+                       "min":  0,
+                       "max":  0,
+                       "rows_per_page":  20,
+                       "collapsed":  "",
+                       "sub_fields":  [
+                                          {
+                                              "key":  "field_group_mri_logo_strip_mri_logo_strip_items_image",
+                                              "label":  "Image",
+                                              "name":  "image",
+                                              "aria-label":  "",
+                                              "type":  "image",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "return_format":  "array",
+                                              "preview_size":  "medium",
+                                              "library":  "all",
+                                              "min_width":  0,
+                                              "min_height":  0,
+                                              "min_size":  0,
+                                              "max_width":  0,
+                                              "max_height":  0,
+                                              "max_size":  0,
+                                              "mime_types":  "",
+                                              "parent_repeater":  "field_group_mri_logo_strip_mri_logo_strip_items_mri_logo_strip_items"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_logo_strip_mri_logo_strip_items_alt",
+                                              "label":  "Alt",
+                                              "name":  "alt",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Partner logo",
+                                              "maxlength":  "",
+                                              "placeholder":  "Describe the image",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_logo_strip_mri_logo_strip_items_mri_logo_strip_items"
+                                          }
+                                      ]
+                   },
+                   {
+                       "key":  "field_group_mri_logo_strip_mri_logo_strip_static_mode",
+                       "label":  "Static Mode",
+                       "name":  "mri_logo_strip_static_mode",
+                       "aria-label":  "",
+                       "type":  "true_false",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "ui":  1,
+                       "default_value":  0,
+                       "message":  "",
+                       "ui_on_text":  "",
+                       "ui_off_text":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_logo_strip_mri_logo_strip_block_frame",
+                       "label":  "Block Frame",
+                       "name":  "mri_logo_strip_block_frame",
+                       "aria-label":  "",
+                       "type":  "true_false",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "ui":  1,
+                       "default_value":  0,
+                       "message":  "",
+                       "ui_on_text":  "",
+                       "ui_off_text":  ""
+                   }
+               ],
+    "location":  [
+                     [
+                         {
+                             "param":  "block",
+                             "operator":  "==",
+                             "value":  "acf/mri-logo-strip"
+                         }
+                     ]
+                 ],
+    "menu_order":  0,
+    "position":  "normal",
+    "style":  "default",
+    "label_placement":  "top",
+    "instruction_placement":  "label",
+    "hide_on_screen":  "",
+    "active":  true,
+    "description":  "",
+    "show_in_rest":  1,
+    "display_title":  "",
+    "allow_ai_access":  false,
+    "ai_description":  ""
+}

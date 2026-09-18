@@ -1,0 +1,181 @@
+{
+    "key": "group_mri_testimonial_logos",
+    "title": "MRI Testimonial Logos",
+    "fields": [
+        {
+            "key": "field_group_mri_testimonial_logos_mri_testimonial_logos_heading",
+            "label": "Heading",
+            "name": "mri_testimonial_logos_heading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Use concise, benefit-led copy that is specific to the page audience and consistent with approved MRI messaging.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Trusted by real estate organisations worldwide",
+            "maxlength": "",
+            "placeholder": "Enter heading",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_group_mri_testimonial_logos_mri_testimonial_logos_items_mri_testimonial_logos_items",
+            "label": "Items",
+            "name": "mri_testimonial_logos_items",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Add enough items to explain the story clearly. Keep item length and structure consistent, and remove any unused example rows.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "button_label": "Add Row",
+            "min": 0,
+            "max": 0,
+            "rows_per_page": 20,
+            "collapsed": "",
+            "sub_fields": [
+                {
+                    "key": "field_group_mri_testimonial_logos_mri_testimonial_logos_items_image",
+                    "label": "Image",
+                    "name": "image",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "Select an approved MRI image from the media library. Use imagery that supports this section rather than repeating nearby content.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": 0,
+                    "min_height": 0,
+                    "min_size": 0,
+                    "max_width": 0,
+                    "max_height": 0,
+                    "max_size": 0,
+                    "mime_types": "",
+                    "parent_repeater": "field_group_mri_testimonial_logos_mri_testimonial_logos_items_mri_testimonial_logos_items"
+                },
+                {
+                    "key": "field_group_mri_testimonial_logos_mri_testimonial_logos_items_alt",
+                    "label": "Alt",
+                    "name": "alt",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Describe the image’s purpose and important visual content. Leave blank only when the image is purely decorative.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Approved MRI customer logo",
+                    "maxlength": "",
+                    "placeholder": "Describe the image",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_group_mri_testimonial_logos_mri_testimonial_logos_items_mri_testimonial_logos_items"
+                }
+            ]
+        },
+        {
+            "key": "field_6aa8021079b98",
+            "label": "Client Testimonial",
+            "name": "mri_testimonial_client_testimonial",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "MRI’s flexibility and integration capabilities differentiate us from the competition, and they serve as a true partner that supports our strategic drive toward efficiency.",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6aa805f715cae",
+            "label": "Client Name",
+            "name": "mri_testimonial_client_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "John Doe",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6aa8062515caf",
+            "label": "Client Designation",
+            "name": "mri_testimonial_client_designation",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Business Developer",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/mri-testimonial-logos"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Defaults are MRI-focused examples for a commercial real estate marketing landing page. Adapt to the campaign audience, product and region; verify every claim, customer reference and legal statement before publishing.",
+    "show_in_rest": 1,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1789498258
+}

@@ -1,0 +1,216 @@
+{
+    "key": "group_mri_accordion_faq",
+    "title": "MRI Accordion Faq",
+    "fields": [
+        {
+            "key": "field_group_mri_accordion_faq_mri_accordion_faq_heading",
+            "label": "Heading",
+            "name": "mri_accordion_faq_heading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Use concise, benefit-led copy that is specific to the page audience and consistent with approved MRI messaging.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Questions about MRI Software",
+            "maxlength": "",
+            "placeholder": "Enter heading",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_group_mri_accordion_faq_mri_accordion_faq_subheading",
+            "label": "Subheading",
+            "name": "mri_accordion_faq_subheading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Use concise, benefit-led copy that is specific to the page audience and consistent with approved MRI messaging.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Helpful answers before you speak with our team",
+            "maxlength": "",
+            "placeholder": "Enter heading",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_group_mri_accordion_faq_mri_accordion_faq_content",
+            "label": "Content",
+            "name": "mri_accordion_faq_content",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Use concise, benefit-led copy that is specific to the page audience and consistent with approved MRI messaging.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Learn how MRI can support complex portfolios, connect with existing technology and scale with your real estate strategy.",
+            "new_lines": "",
+            "maxlength": "",
+            "placeholder": "Add supporting copy",
+            "rows": ""
+        },
+        {
+            "key": "field_group_mri_accordion_faq_mri_accordion_faq_button_label",
+            "label": "Button Label",
+            "name": "mri_accordion_faq_button_label",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Use a specific action that tells visitors what happens next, such as “Request a demo” or “Explore the solution”.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Talk to an MRI expert",
+            "maxlength": "",
+            "placeholder": "Learn more",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_group_mri_accordion_faq_mri_accordion_faq_button_link",
+            "label": "Button Link",
+            "name": "mri_accordion_faq_button_link",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "Use a stable, approved MRI Software URL. Prefer the canonical destination over a temporary tracking link.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https:\/\/www.mrisoftware.com\/contact\/",
+            "placeholder": "https:\/\/www.mrisoftware.com\/your-approved-page\/"
+        },
+        {
+            "key": "field_group_mri_accordion_faq_mri_accordion_faq_image",
+            "label": "Image",
+            "name": "mri_accordion_faq_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Select an approved MRI image from the media library. Use imagery that supports this section rather than repeating nearby content.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_group_mri_accordion_faq_mri_accordion_faq_items_mri_accordion_faq_items",
+            "label": "Items",
+            "name": "mri_accordion_faq_items",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Add enough items to explain the story clearly. Keep item length and structure consistent, and remove any unused example rows.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "pagination": 0,
+            "min": 2,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Row",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_group_mri_accordion_faq_mri_accordion_faq_items_title",
+                    "label": "Title",
+                    "name": "title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Use concise, benefit-led copy that is specific to the page audience and consistent with approved MRI messaging.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Can MRI connect with our existing systems?",
+                    "maxlength": "",
+                    "placeholder": "Enter title",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_group_mri_accordion_faq_mri_accordion_faq_items_mri_accordion_faq_items"
+                },
+                {
+                    "key": "field_group_mri_accordion_faq_mri_accordion_faq_items_body",
+                    "label": "Body",
+                    "name": "body",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "Explain the visitor benefit in plain language. Be specific about the workflow or outcome, and avoid jargon or unsupported claims.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "MRI is designed as an open and connected platform, with integrations and APIs that help real estate teams connect the tools and data they already rely on.",
+                    "new_lines": "",
+                    "maxlength": "",
+                    "placeholder": "Add supporting copy",
+                    "rows": "",
+                    "parent_repeater": "field_group_mri_accordion_faq_mri_accordion_faq_items_mri_accordion_faq_items"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/mri-accordion-faq"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Defaults are MRI-focused examples for a commercial real estate marketing landing page. Adapt to the campaign audience, product and region; verify every claim, customer reference and legal statement before publishing.",
+    "show_in_rest": 1,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1784897482
+}

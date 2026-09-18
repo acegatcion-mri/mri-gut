@@ -1,0 +1,254 @@
+﻿{
+    "key":  "group_mri_card_grid",
+    "title":  "MRI Card Grid",
+    "fields":  [
+                   {
+                       "key":  "field_group_mri_card_grid_mri_card_grid_heading",
+                       "label":  "Heading",
+                       "name":  "mri_card_grid_heading",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Solutions built for every team",
+                       "maxlength":  "",
+                       "placeholder":  "Enter heading",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_card_grid_mri_card_grid_subheading",
+                       "label":  "Subheading",
+                       "name":  "mri_card_grid_subheading",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Choose the workflow you want to accelerate",
+                       "maxlength":  "",
+                       "placeholder":  "Enter heading",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_card_grid_mri_card_grid_content",
+                       "label":  "Content",
+                       "name":  "mri_card_grid_content",
+                       "aria-label":  "",
+                       "type":  "textarea",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Explore focused capabilities designed for leasing, operations, and finance.",
+                       "new_lines":  "",
+                       "maxlength":  "",
+                       "placeholder":  "Add supporting copy",
+                       "rows":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_card_grid_mri_card_grid_button_label",
+                       "label":  "Button Label",
+                       "name":  "mri_card_grid_button_label",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Explore solutions",
+                       "maxlength":  "",
+                       "placeholder":  "Learn more",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_card_grid_mri_card_grid_button_link",
+                       "label":  "Button Link",
+                       "name":  "mri_card_grid_button_link",
+                       "aria-label":  "",
+                       "type":  "url",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "https://example.com/solutions",
+                       "placeholder":  "https://example.com"
+                   },
+                   {
+                       "key":  "field_group_mri_card_grid_mri_card_grid_items_mri_card_grid_items",
+                       "label":  "Items",
+                       "name":  "mri_card_grid_items",
+                       "aria-label":  "",
+                       "type":  "repeater",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "layout":  "row",
+                       "button_label":  "Add Row",
+                       "min":  0,
+                       "max":  0,
+                       "rows_per_page":  20,
+                       "collapsed":  "",
+                       "sub_fields":  [
+                                          {
+                                              "key":  "field_group_mri_card_grid_mri_card_grid_items_title",
+                                              "label":  "Title",
+                                              "name":  "title",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Leasing Operations",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter title",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_card_grid_mri_card_grid_items_mri_card_grid_items"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_card_grid_mri_card_grid_items_text",
+                                              "label":  "Text",
+                                              "name":  "text",
+                                              "aria-label":  "",
+                                              "type":  "textarea",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Centralize listings, tours, and lease workflows to reduce vacancy cycles.",
+                                              "new_lines":  "",
+                                              "maxlength":  "",
+                                              "placeholder":  "Add supporting copy",
+                                              "rows":  "",
+                                              "parent_repeater":  "field_group_mri_card_grid_mri_card_grid_items_mri_card_grid_items"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_card_grid_mri_card_grid_items_kicker",
+                                              "label":  "Kicker",
+                                              "name":  "kicker",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Solution",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter text",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_card_grid_mri_card_grid_items_mri_card_grid_items"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_card_grid_mri_card_grid_items_primary_link",
+                                              "label":  "Primary Link",
+                                              "name":  "primary_link",
+                                              "aria-label":  "",
+                                              "type":  "url",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "https://example.com/solutions/leasing",
+                                              "placeholder":  "https://example.com",
+                                              "parent_repeater":  "field_group_mri_card_grid_mri_card_grid_items_mri_card_grid_items"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_card_grid_mri_card_grid_items_image",
+                                              "label":  "Image",
+                                              "name":  "image",
+                                              "aria-label":  "",
+                                              "type":  "image",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "return_format":  "array",
+                                              "preview_size":  "medium",
+                                              "library":  "all",
+                                              "min_width":  0,
+                                              "min_height":  0,
+                                              "min_size":  0,
+                                              "max_width":  0,
+                                              "max_height":  0,
+                                              "max_size":  0,
+                                              "mime_types":  "",
+                                              "parent_repeater":  "field_group_mri_card_grid_mri_card_grid_items_mri_card_grid_items"
+                                          }
+                                      ]
+                   }
+               ],
+    "location":  [
+                     [
+                         {
+                             "param":  "block",
+                             "operator":  "==",
+                             "value":  "acf/mri-card-grid"
+                         }
+                     ]
+                 ],
+    "menu_order":  0,
+    "position":  "normal",
+    "style":  "default",
+    "label_placement":  "top",
+    "instruction_placement":  "label",
+    "hide_on_screen":  "",
+    "active":  true,
+    "description":  "",
+    "show_in_rest":  1,
+    "display_title":  "",
+    "allow_ai_access":  false,
+    "ai_description":  ""
+}

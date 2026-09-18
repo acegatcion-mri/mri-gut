@@ -1,0 +1,154 @@
+﻿{
+    "key":  "group_mri_comparison_block",
+    "title":  "MRI Comparison Block",
+    "fields":  [
+                   {
+                       "key":  "field_group_mri_comparison_block_mri_comparison_block_heading",
+                       "label":  "Heading",
+                       "name":  "mri_comparison_block_heading",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "See the difference side by side",
+                       "maxlength":  "",
+                       "placeholder":  "Enter heading",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_comparison_block_mri_comparison_block_rows_mri_comparison_block_rows",
+                       "label":  "Rows",
+                       "name":  "mri_comparison_block_rows",
+                       "aria-label":  "",
+                       "type":  "repeater",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "layout":  "row",
+                       "button_label":  "Add Row",
+                       "min":  0,
+                       "max":  0,
+                       "rows_per_page":  20,
+                       "collapsed":  "",
+                       "sub_fields":  [
+                                          {
+                                              "key":  "field_group_mri_comparison_block_mri_comparison_block_rows_criteria",
+                                              "label":  "Criteria",
+                                              "name":  "criteria",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Time to launch",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter text",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_comparison_block_mri_comparison_block_rows_mri_comparison_block_rows"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_comparison_block_mri_comparison_block_rows_baseline",
+                                              "label":  "Baseline",
+                                              "name":  "baseline",
+                                              "aria-label":  "",
+                                              "type":  "textarea",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "6 to 8 weeks with manual setup",
+                                              "new_lines":  "",
+                                              "maxlength":  "",
+                                              "placeholder":  "Add details",
+                                              "rows":  "",
+                                              "parent_repeater":  "field_group_mri_comparison_block_mri_comparison_block_rows_mri_comparison_block_rows"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_comparison_block_mri_comparison_block_rows_alternative",
+                                              "label":  "Alternative",
+                                              "name":  "alternative",
+                                              "aria-label":  "",
+                                              "type":  "textarea",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "3 to 5 weeks with implementation support",
+                                              "new_lines":  "",
+                                              "maxlength":  "",
+                                              "placeholder":  "Add details",
+                                              "rows":  "",
+                                              "parent_repeater":  "field_group_mri_comparison_block_mri_comparison_block_rows_mri_comparison_block_rows"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_comparison_block_mri_comparison_block_rows_product",
+                                              "label":  "Product",
+                                              "name":  "product",
+                                              "aria-label":  "",
+                                              "type":  "textarea",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "1 to 2 weeks using guided templates",
+                                              "new_lines":  "",
+                                              "maxlength":  "",
+                                              "placeholder":  "Add details",
+                                              "rows":  "",
+                                              "parent_repeater":  "field_group_mri_comparison_block_mri_comparison_block_rows_mri_comparison_block_rows"
+                                          }
+                                      ]
+                   }
+               ],
+    "location":  [
+                     [
+                         {
+                             "param":  "block",
+                             "operator":  "==",
+                             "value":  "acf/mri-comparison-block"
+                         }
+                     ]
+                 ],
+    "menu_order":  0,
+    "position":  "normal",
+    "style":  "default",
+    "label_placement":  "top",
+    "instruction_placement":  "label",
+    "hide_on_screen":  "",
+    "active":  true,
+    "description":  "",
+    "show_in_rest":  1,
+    "display_title":  "",
+    "allow_ai_access":  false,
+    "ai_description":  ""
+}

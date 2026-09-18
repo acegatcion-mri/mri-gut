@@ -1,0 +1,235 @@
+﻿{
+    "key":  "group_mri_accordion_agenda",
+    "title":  "MRI Accordion Agenda",
+    "fields":  [
+                   {
+                       "key":  "field_group_mri_accordion_agenda_mri_accordion_agenda_heading",
+                       "label":  "Heading",
+                       "name":  "mri_accordion_agenda_heading",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Agenda",
+                       "maxlength":  "",
+                       "placeholder":  "Enter heading",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_accordion_agenda_mri_accordion_agenda_subheading",
+                       "label":  "Subheading",
+                       "name":  "mri_accordion_agenda_subheading",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Event schedule at a glance",
+                       "maxlength":  "",
+                       "placeholder":  "Enter heading",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_accordion_agenda_mri_accordion_agenda_content",
+                       "label":  "Content",
+                       "name":  "mri_accordion_agenda_content",
+                       "aria-label":  "",
+                       "type":  "textarea",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Follow the timeline below to see each session and key takeaway.",
+                       "new_lines":  "",
+                       "maxlength":  "",
+                       "placeholder":  "Add supporting copy",
+                       "rows":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_accordion_agenda_mri_accordion_agenda_button_label",
+                       "label":  "Button Label",
+                       "name":  "mri_accordion_agenda_button_label",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "View full agenda",
+                       "maxlength":  "",
+                       "placeholder":  "Learn more",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_accordion_agenda_mri_accordion_agenda_button_link",
+                       "label":  "Button Link",
+                       "name":  "mri_accordion_agenda_button_link",
+                       "aria-label":  "",
+                       "type":  "url",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "https://example.com/agenda",
+                       "placeholder":  "https://example.com"
+                   },
+                   {
+                       "key":  "field_group_mri_accordion_agenda_mri_accordion_agenda_image",
+                       "label":  "Image",
+                       "name":  "mri_accordion_agenda_image",
+                       "aria-label":  "",
+                       "type":  "image",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "return_format":  "array",
+                       "preview_size":  "medium",
+                       "library":  "all",
+                       "min_width":  0,
+                       "min_height":  0,
+                       "min_size":  0,
+                       "max_width":  0,
+                       "max_height":  0,
+                       "max_size":  0,
+                       "mime_types":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_accordion_agenda_mri_accordion_agenda_items_mri_accordion_agenda_items",
+                       "label":  "Items",
+                       "name":  "mri_accordion_agenda_items",
+                       "aria-label":  "",
+                       "type":  "repeater",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "layout":  "row",
+                       "button_label":  "Add Row",
+                       "min":  0,
+                       "max":  0,
+                       "rows_per_page":  20,
+                       "collapsed":  "",
+                       "sub_fields":  [
+                                          {
+                                              "key":  "field_group_mri_accordion_agenda_mri_accordion_agenda_items_time",
+                                              "label":  "Time",
+                                              "name":  "time",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "09:00",
+                                              "maxlength":  "",
+                                              "placeholder":  "e.g. 09:00",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_accordion_agenda_mri_accordion_agenda_items_mri_accordion_agenda_items"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_accordion_agenda_mri_accordion_agenda_items_title",
+                                              "label":  "Title",
+                                              "name":  "title",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Welcome and introductions",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter title",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_accordion_agenda_mri_accordion_agenda_items_mri_accordion_agenda_items"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_accordion_agenda_mri_accordion_agenda_items_body",
+                                              "label":  "Body",
+                                              "name":  "body",
+                                              "aria-label":  "",
+                                              "type":  "textarea",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Kick off the session, align on outcomes, and introduce speakers.",
+                                              "new_lines":  "",
+                                              "maxlength":  "",
+                                              "placeholder":  "Add supporting copy",
+                                              "rows":  "",
+                                              "parent_repeater":  "field_group_mri_accordion_agenda_mri_accordion_agenda_items_mri_accordion_agenda_items"
+                                          }
+                                      ]
+                   }
+               ],
+    "location":  [
+                     [
+                         {
+                             "param":  "block",
+                             "operator":  "==",
+                             "value":  "acf/mri-accordion-agenda"
+                         }
+                     ]
+                 ],
+    "menu_order":  0,
+    "position":  "normal",
+    "style":  "default",
+    "label_placement":  "top",
+    "instruction_placement":  "label",
+    "hide_on_screen":  "",
+    "active":  true,
+    "description":  "",
+    "show_in_rest":  1,
+    "display_title":  "",
+    "allow_ai_access":  false,
+    "ai_description":  ""
+}

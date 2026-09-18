@@ -1,0 +1,113 @@
+﻿{
+    "key":  "group_mri_stats_block",
+    "title":  "MRI Stats Block",
+    "fields":  [
+                   {
+                       "key":  "field_group_mri_stats_block_mri_stats_block_items_mri_stats_block_items",
+                       "label":  "Items",
+                       "name":  "mri_stats_block_items",
+                       "aria-label":  "",
+                       "type":  "repeater",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "layout":  "row",
+                       "button_label":  "Add Row",
+                       "min":  0,
+                       "max":  0,
+                       "rows_per_page":  20,
+                       "collapsed":  "",
+                       "sub_fields":  [
+                                          {
+                                              "key":  "field_group_mri_stats_block_mri_stats_block_items_value",
+                                              "label":  "Value",
+                                              "name":  "value",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "45,000+",
+                                              "maxlength":  "",
+                                              "placeholder":  "e.g. 45,000+",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_stats_block_mri_stats_block_items_mri_stats_block_items"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_stats_block_mri_stats_block_items_label",
+                                              "label":  "Label",
+                                              "name":  "label",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Clients",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter label",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_stats_block_mri_stats_block_items_mri_stats_block_items"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_stats_block_mri_stats_block_items_icon",
+                                              "label":  "Icon",
+                                              "name":  "icon",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "bi-graph-up-arrow",
+                                              "maxlength":  "",
+                                              "placeholder":  "e.g. bi-stars",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_stats_block_mri_stats_block_items_mri_stats_block_items"
+                                          }
+                                      ]
+                   }
+               ],
+    "location":  [
+                     [
+                         {
+                             "param":  "block",
+                             "operator":  "==",
+                             "value":  "acf/mri-stats-block"
+                         }
+                     ]
+                 ],
+    "menu_order":  0,
+    "position":  "normal",
+    "style":  "default",
+    "label_placement":  "top",
+    "instruction_placement":  "label",
+    "hide_on_screen":  "",
+    "active":  true,
+    "description":  "",
+    "show_in_rest":  1,
+    "display_title":  "",
+    "allow_ai_access":  false,
+    "ai_description":  ""
+}

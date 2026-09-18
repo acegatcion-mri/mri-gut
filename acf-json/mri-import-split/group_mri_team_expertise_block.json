@@ -1,0 +1,153 @@
+﻿{
+    "key":  "group_mri_team_expertise_block",
+    "title":  "MRI Team Expertise Block",
+    "fields":  [
+                   {
+                       "key":  "field_group_mri_team_expertise_block_mri_team_expertise_block_heading",
+                       "label":  "Heading",
+                       "name":  "mri_team_expertise_block_heading",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Built by teams who have done this at scale",
+                       "maxlength":  "",
+                       "placeholder":  "Enter heading",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_team_expertise_block_mri_team_expertise_block_copy",
+                       "label":  "Copy",
+                       "name":  "mri_team_expertise_block_copy",
+                       "aria-label":  "",
+                       "type":  "textarea",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Deep delivery history across complex portfolios and enterprise operations.",
+                       "new_lines":  "",
+                       "maxlength":  "",
+                       "placeholder":  "Add supporting copy",
+                       "rows":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_team_expertise_block_mri_team_expertise_block_items_mri_team_expertise_block_items",
+                       "label":  "Items",
+                       "name":  "mri_team_expertise_block_items",
+                       "aria-label":  "",
+                       "type":  "repeater",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "layout":  "row",
+                       "button_label":  "Add Row",
+                       "min":  0,
+                       "max":  0,
+                       "rows_per_page":  20,
+                       "collapsed":  "",
+                       "sub_fields":  [
+                                          {
+                                              "key":  "field_group_mri_team_expertise_block_mri_team_expertise_block_items_metric",
+                                              "label":  "Metric",
+                                              "name":  "metric",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "25+ years",
+                                              "maxlength":  "",
+                                              "placeholder":  "e.g. 45,000+",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_team_expertise_block_mri_team_expertise_block_items_mri_team_expertise_block_items"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_team_expertise_block_mri_team_expertise_block_items_title",
+                                              "label":  "Title",
+                                              "name":  "title",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Domain experience",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter title",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_team_expertise_block_mri_team_expertise_block_items_mri_team_expertise_block_items"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_team_expertise_block_mri_team_expertise_block_items_text",
+                                              "label":  "Text",
+                                              "name":  "text",
+                                              "aria-label":  "",
+                                              "type":  "textarea",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Hands-on expertise from strategy through implementation.",
+                                              "new_lines":  "",
+                                              "maxlength":  "",
+                                              "placeholder":  "Add supporting copy",
+                                              "rows":  "",
+                                              "parent_repeater":  "field_group_mri_team_expertise_block_mri_team_expertise_block_items_mri_team_expertise_block_items"
+                                          }
+                                      ]
+                   }
+               ],
+    "location":  [
+                     [
+                         {
+                             "param":  "block",
+                             "operator":  "==",
+                             "value":  "acf/mri-team-expertise-block"
+                         }
+                     ]
+                 ],
+    "menu_order":  0,
+    "position":  "normal",
+    "style":  "default",
+    "label_placement":  "top",
+    "instruction_placement":  "label",
+    "hide_on_screen":  "",
+    "active":  true,
+    "description":  "",
+    "show_in_rest":  1,
+    "display_title":  "",
+    "allow_ai_access":  false,
+    "ai_description":  ""
+}

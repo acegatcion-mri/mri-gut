@@ -1,0 +1,260 @@
+{
+    "key": "group_mri_pricing_plan_snapshot",
+    "title": "MRI Pricing Plan Snapshot",
+    "fields": [
+        {
+            "key": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_heading",
+            "label": "Heading",
+            "name": "mri_pricing_plan_snapshot_heading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Use concise, benefit-led copy that is specific to the page audience and consistent with approved MRI messaging.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "A solution configured around your portfolio",
+            "maxlength": "",
+            "placeholder": "Enter heading",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans",
+            "label": "Plans",
+            "name": "mri_pricing_plan_snapshot_plans",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Add enough items to explain the story clearly. Keep item length and structure consistent, and remove any unused example rows.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "button_label": "Add Row",
+            "min": 0,
+            "max": 0,
+            "rows_per_page": 20,
+            "collapsed": "",
+            "sub_fields": [
+                {
+                    "key": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_name",
+                    "label": "Name",
+                    "name": "name",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Use concise, benefit-led copy that is specific to the page audience and consistent with approved MRI messaging.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Tailored MRI solution",
+                    "maxlength": "",
+                    "placeholder": "Enter text",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans"
+                },
+                {
+                    "key": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_price",
+                    "label": "Price",
+                    "name": "price",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "MRI pricing is typically tailored. Only show a numeric price when it is approved for the specific product, region and campaign.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Talk to our team",
+                    "maxlength": "",
+                    "placeholder": "Enter text",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans"
+                },
+                {
+                    "key": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_cadence",
+                    "label": "Cadence",
+                    "name": "cadence",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Use concise, benefit-led copy that is specific to the page audience and consistent with approved MRI messaging.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "for tailored pricing",
+                    "maxlength": "",
+                    "placeholder": "Enter text",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans"
+                },
+                {
+                    "key": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_description",
+                    "label": "Description",
+                    "name": "description",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "Use only current, source-approved proof. Avoid unsupported percentages, rankings, customer claims or guaranteed outcomes.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Pricing and implementation are shaped by your portfolio, selected solutions, integrations, users and business requirements.",
+                    "new_lines": "",
+                    "maxlength": "",
+                    "placeholder": "Add supporting copy",
+                    "rows": "",
+                    "parent_repeater": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans"
+                },
+                {
+                    "key": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_featured",
+                    "label": "Featured",
+                    "name": "featured",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "Use this display option only when it improves the page layout and has been checked across screen sizes.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "ui": 1,
+                    "default_value": 0,
+                    "message": "",
+                    "ui_on_text": "",
+                    "ui_off_text": "",
+                    "parent_repeater": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans"
+                },
+                {
+                    "key": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_cta_label",
+                    "label": "CTA Label",
+                    "name": "cta_label",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Use a specific action that tells visitors what happens next, such as “Request a demo” or “Explore the solution”.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Request pricing",
+                    "maxlength": "",
+                    "placeholder": "Learn more",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans"
+                },
+                {
+                    "key": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_cta_href",
+                    "label": "CTA URL",
+                    "name": "cta_href",
+                    "aria-label": "",
+                    "type": "url",
+                    "instructions": "Use a stable, approved MRI Software URL. Prefer the canonical destination over a temporary tracking link.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "https:\/\/www.mrisoftware.com\/contact\/",
+                    "placeholder": "https:\/\/www.mrisoftware.com\/your-approved-page\/",
+                    "parent_repeater": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans"
+                },
+                {
+                    "key": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_features_features",
+                    "label": "Features",
+                    "name": "features",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "Add enough items to explain the story clearly. Keep item length and structure consistent, and remove any unused example rows.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "row",
+                    "button_label": "Add Row",
+                    "min": 0,
+                    "max": 0,
+                    "rows_per_page": 20,
+                    "collapsed": "",
+                    "parent_repeater": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans",
+                    "sub_fields": [
+                        {
+                            "key": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_features_text",
+                            "label": "Text",
+                            "name": "text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Explain the visitor benefit in plain language. Be specific about the workflow or outcome, and avoid jargon or unsupported claims.",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Configured for your property types, teams and workflows",
+                            "maxlength": "",
+                            "placeholder": "Enter text",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_features_features"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/mri-pricing-plan-snapshot"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Defaults are MRI-focused examples for a commercial real estate marketing landing page. Adapt to the campaign audience, product and region; verify every claim, customer reference and legal statement before publishing.",
+    "show_in_rest": 1,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "Generate concise, benefit-led MRI Software landing-page copy. Emphasise open and connected real estate technology, connected leasing\/finance\/operations workflows, portfolio visibility and flexibility. Do not invent metrics, reviews, awards, prices, customer names or implementation timelines.",
+    "modified": 1784837734
+}

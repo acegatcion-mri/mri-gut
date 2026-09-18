@@ -1,0 +1,150 @@
+{
+    "key": "group_mri_lead_gen_tabs",
+    "title": "MRI Lead Gen Tabs",
+    "fields": [
+        {
+            "key": "field_group_mri_lead_gen_tabs_heading",
+            "label": "Heading",
+            "name": "mri_lead_gen_tabs_heading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Use concise, benefit-led copy that is specific to the page audience and consistent with approved MRI messaging.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Solutions for every commercial real estate team",
+            "maxlength": "",
+            "placeholder": "Enter heading",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_group_mri_lead_gen_tabs_subheading",
+            "label": "Subheading",
+            "name": "mri_lead_gen_tabs_subheading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Use concise, benefit-led copy that is specific to the page audience and consistent with approved MRI messaging.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Explore the workflows that matter to your role",
+            "maxlength": "",
+            "placeholder": "Enter heading",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_group_mri_lead_gen_tabs_content",
+            "label": "Content",
+            "name": "mri_lead_gen_tabs_content",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Use concise, benefit-led copy that is specific to the page audience and consistent with approved MRI messaging.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Show how MRI supports property managers, leasing teams, finance leaders and executives with connected data and role-relevant workflows.",
+            "new_lines": "",
+            "maxlength": "",
+            "placeholder": "Add supporting copy",
+            "rows": ""
+        },
+        {
+            "key": "field_group_mri_lead_gen_tabs_button_label",
+            "label": "Button Label",
+            "name": "mri_lead_gen_tabs_button_label",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Use a specific action that tells visitors what happens next, such as “Request a demo” or “Explore the solution”.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Explore commercial real estate solutions",
+            "maxlength": "",
+            "placeholder": "Learn more",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_group_mri_lead_gen_tabs_button_link",
+            "label": "Button Link",
+            "name": "mri_lead_gen_tabs_button_link",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "Use a stable, approved MRI Software URL. Prefer the canonical destination over a temporary tracking link.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https:\/\/www.mrisoftware.com\/solutions\/commercial-real-estate-software\/",
+            "placeholder": "https:\/\/www.mrisoftware.com\/your-approved-page\/"
+        },
+        {
+            "key": "field_group_mri_lead_gen_tabs_image",
+            "label": "Image",
+            "name": "mri_lead_gen_tabs_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Select an approved MRI image from the media library. Use imagery that supports this section rather than repeating nearby content.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/mri-lead-gen-tabs"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Defaults are MRI-focused examples for a commercial real estate marketing landing page. Adapt to the campaign audience, product and region; verify every claim, customer reference and legal statement before publishing.",
+    "show_in_rest": 1,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "Generate concise, benefit-led MRI Software landing-page copy. Emphasise open and connected real estate technology, connected leasing\/finance\/operations workflows, portfolio visibility and flexibility. Do not invent metrics, reviews, awards, prices, customer names or implementation timelines.",
+    "modified": 1784837734
+}

@@ -1,0 +1,202 @@
+﻿{
+    "key":  "group_mri_roi_calculator_lite",
+    "title":  "MRI Roi Calculator Lite",
+    "fields":  [
+                   {
+                       "key":  "field_group_mri_roi_calculator_lite_mri_roi_calculator_lite_heading",
+                       "label":  "Heading",
+                       "name":  "mri_roi_calculator_lite_heading",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "ROI Calculator Lite",
+                       "maxlength":  "",
+                       "placeholder":  "Enter heading",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_roi_calculator_lite_mri_roi_calculator_lite_copy",
+                       "label":  "Copy",
+                       "name":  "mri_roi_calculator_lite_copy",
+                       "aria-label":  "",
+                       "type":  "textarea",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Estimate potential impact in minutes using your portfolio assumptions.",
+                       "new_lines":  "",
+                       "maxlength":  "",
+                       "placeholder":  "Add supporting copy",
+                       "rows":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_roi_calculator_lite_mri_roi_calculator_lite_bullets_mri_roi_calculator_lite_bullets",
+                       "label":  "Bullets",
+                       "name":  "mri_roi_calculator_lite_bullets",
+                       "aria-label":  "",
+                       "type":  "repeater",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "layout":  "row",
+                       "button_label":  "Add Row",
+                       "min":  0,
+                       "max":  0,
+                       "rows_per_page":  20,
+                       "collapsed":  "",
+                       "sub_fields":  [
+                                          {
+                                              "key":  "field_group_mri_roi_calculator_lite_mri_roi_calculator_lite_bullets_text",
+                                              "label":  "Text",
+                                              "name":  "text",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Capture quick savings scenarios by location",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter text",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_roi_calculator_lite_mri_roi_calculator_lite_bullets_mri_roi_calculator_lite_bullets"
+                                          }
+                                      ]
+                   },
+                   {
+                       "key":  "field_group_mri_roi_calculator_lite_mri_roi_calculator_lite_image",
+                       "label":  "Image",
+                       "name":  "mri_roi_calculator_lite_image",
+                       "aria-label":  "",
+                       "type":  "image",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "return_format":  "array",
+                       "preview_size":  "medium",
+                       "library":  "all",
+                       "min_width":  0,
+                       "min_height":  0,
+                       "min_size":  0,
+                       "max_width":  0,
+                       "max_height":  0,
+                       "max_size":  0,
+                       "mime_types":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_roi_calculator_lite_mri_roi_calculator_lite_locations",
+                       "label":  "Locations",
+                       "name":  "mri_roi_calculator_lite_locations",
+                       "aria-label":  "",
+                       "type":  "number",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  1,
+                       "min":  "",
+                       "max":  "",
+                       "step":  "",
+                       "placeholder":  "e.g. 100",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_roi_calculator_lite_mri_roi_calculator_lite_avg_lease_cost",
+                       "label":  "Avg Lease Cost",
+                       "name":  "mri_roi_calculator_lite_avg_lease_cost",
+                       "aria-label":  "",
+                       "type":  "number",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  1,
+                       "min":  "",
+                       "max":  "",
+                       "step":  "",
+                       "placeholder":  "e.g. 100",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_roi_calculator_lite_mri_roi_calculator_lite_avg_sales_per_location",
+                       "label":  "Avg Sales Per Location",
+                       "name":  "mri_roi_calculator_lite_avg_sales_per_location",
+                       "aria-label":  "",
+                       "type":  "number",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  1,
+                       "min":  "",
+                       "max":  "",
+                       "step":  "",
+                       "placeholder":  "e.g. 100",
+                       "prepend":  "",
+                       "append":  ""
+                   }
+               ],
+    "location":  [
+                     [
+                         {
+                             "param":  "block",
+                             "operator":  "==",
+                             "value":  "acf/mri-roi-calculator-lite"
+                         }
+                     ]
+                 ],
+    "menu_order":  0,
+    "position":  "normal",
+    "style":  "default",
+    "label_placement":  "top",
+    "instruction_placement":  "label",
+    "hide_on_screen":  "",
+    "active":  true,
+    "description":  "",
+    "show_in_rest":  1,
+    "display_title":  "",
+    "allow_ai_access":  false,
+    "ai_description":  ""
+}

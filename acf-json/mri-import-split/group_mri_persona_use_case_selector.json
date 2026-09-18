@@ -1,0 +1,238 @@
+﻿{
+    "key":  "group_mri_persona_use_case_selector",
+    "title":  "MRI Persona Use Case Selector",
+    "fields":  [
+                   {
+                       "key":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_heading",
+                       "label":  "Heading",
+                       "name":  "mri_persona_use_case_selector_heading",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Find the path that fits your team",
+                       "maxlength":  "",
+                       "placeholder":  "Enter heading",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_mri_persona_use_case_selector_personas",
+                       "label":  "Personas",
+                       "name":  "mri_persona_use_case_selector_personas",
+                       "aria-label":  "",
+                       "type":  "repeater",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "layout":  "row",
+                       "button_label":  "Add Row",
+                       "min":  0,
+                       "max":  0,
+                       "rows_per_page":  20,
+                       "collapsed":  "",
+                       "sub_fields":  [
+                                          {
+                                              "key":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_id",
+                                              "label":  "ID",
+                                              "name":  "id",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "marketing",
+                                              "maxlength":  "",
+                                              "placeholder":  "e.g. marketing",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_mri_persona_use_case_selector_personas"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_label",
+                                              "label":  "Label",
+                                              "name":  "label",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Marketing",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter label",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_mri_persona_use_case_selector_personas"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_headline",
+                                              "label":  "Headline",
+                                              "name":  "headline",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Launch campaigns faster with cleaner handoff data",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter text",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_mri_persona_use_case_selector_personas"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_copy",
+                                              "label":  "Copy",
+                                              "name":  "copy",
+                                              "aria-label":  "",
+                                              "type":  "textarea",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Give campaign teams confidence with synced signals from every pipeline stage.",
+                                              "new_lines":  "",
+                                              "maxlength":  "",
+                                              "placeholder":  "Add supporting copy",
+                                              "rows":  "",
+                                              "parent_repeater":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_mri_persona_use_case_selector_personas"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_cta_label",
+                                              "label":  "CTA Label",
+                                              "name":  "cta_label",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Explore marketing use case",
+                                              "maxlength":  "",
+                                              "placeholder":  "Learn more",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_mri_persona_use_case_selector_personas"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_cta_href",
+                                              "label":  "CTA URL",
+                                              "name":  "cta_href",
+                                              "aria-label":  "",
+                                              "type":  "url",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "https://example.com/use-cases/marketing",
+                                              "placeholder":  "https://example.com",
+                                              "parent_repeater":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_mri_persona_use_case_selector_personas"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_outcomes_outcomes",
+                                              "label":  "Outcomes",
+                                              "name":  "outcomes",
+                                              "aria-label":  "",
+                                              "type":  "repeater",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "layout":  "row",
+                                              "button_label":  "Add Row",
+                                              "min":  0,
+                                              "max":  0,
+                                              "rows_per_page":  20,
+                                              "collapsed":  "",
+                                              "sub_fields":  [
+                                                                 {
+                                                                     "key":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_outcomes_text",
+                                                                     "label":  "Text",
+                                                                     "name":  "text",
+                                                                     "aria-label":  "",
+                                                                     "type":  "text",
+                                                                     "instructions":  "",
+                                                                     "required":  false,
+                                                                     "conditional_logic":  false,
+                                                                     "wrapper":  {
+                                                                                     "width":  "",
+                                                                                     "class":  "",
+                                                                                     "id":  ""
+                                                                                 },
+                                                                     "default_value":  "Shorten launch timelines by removing manual list prep",
+                                                                     "maxlength":  "",
+                                                                     "placeholder":  "Enter text",
+                                                                     "prepend":  "",
+                                                                     "append":  "",
+                                                                     "parent_repeater":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_outcomes_outcomes"
+                                                                 }
+                                                             ],
+                                              "parent_repeater":  "field_group_mri_persona_use_case_selector_mri_persona_use_case_selector_personas_mri_persona_use_case_selector_personas"
+                                          }
+                                      ]
+                   }
+               ],
+    "location":  [
+                     [
+                         {
+                             "param":  "block",
+                             "operator":  "==",
+                             "value":  "acf/mri-persona-use-case-selector"
+                         }
+                     ]
+                 ],
+    "menu_order":  0,
+    "position":  "normal",
+    "style":  "default",
+    "label_placement":  "top",
+    "instruction_placement":  "label",
+    "hide_on_screen":  "",
+    "active":  true,
+    "description":  "",
+    "show_in_rest":  1,
+    "display_title":  "",
+    "allow_ai_access":  false,
+    "ai_description":  ""
+}

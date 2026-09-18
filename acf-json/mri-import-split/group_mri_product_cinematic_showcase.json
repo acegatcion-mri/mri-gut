@@ -1,0 +1,217 @@
+﻿{
+    "key":  "group_mri_product_cinematic_showcase",
+    "title":  "MRI Product Cinematic Showcase",
+    "fields":  [
+                   {
+                       "key":  "field_group_mri_product_cinematic_showcase_mri_product_cinematic_showcase_heading",
+                       "label":  "Heading",
+                       "name":  "mri_product_cinematic_showcase_heading",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "A product experience built to impress in the first 10 seconds",
+                       "maxlength":  "",
+                       "placeholder":  "Enter heading",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_product_cinematic_showcase_mri_product_cinematic_showcase_copy",
+                       "label":  "Copy",
+                       "name":  "mri_product_cinematic_showcase_copy",
+                       "aria-label":  "",
+                       "type":  "textarea",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Blend operational context, predictive analytics, and guided actions in one cinematic surface.",
+                       "new_lines":  "",
+                       "maxlength":  "",
+                       "placeholder":  "Add supporting copy",
+                       "rows":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_product_cinematic_showcase_mri_product_cinematic_showcase_chips_mri_product_cinematic_showcase_chips",
+                       "label":  "Chips",
+                       "name":  "mri_product_cinematic_showcase_chips",
+                       "aria-label":  "",
+                       "type":  "repeater",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "layout":  "row",
+                       "button_label":  "Add Row",
+                       "min":  0,
+                       "max":  0,
+                       "rows_per_page":  20,
+                       "collapsed":  "",
+                       "sub_fields":  [
+                                          {
+                                              "key":  "field_group_mri_product_cinematic_showcase_mri_product_cinematic_showcase_chips_label",
+                                              "label":  "Label",
+                                              "name":  "label",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Live workflows",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter label",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_product_cinematic_showcase_mri_product_cinematic_showcase_chips_mri_product_cinematic_showcase_chips"
+                                          }
+                                      ]
+                   },
+                   {
+                       "key":  "field_group_mri_product_cinematic_showcase_mri_product_cinematic_showcase_metrics_mri_product_cinematic_showcase_metrics",
+                       "label":  "Metrics",
+                       "name":  "mri_product_cinematic_showcase_metrics",
+                       "aria-label":  "",
+                       "type":  "repeater",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "layout":  "row",
+                       "button_label":  "Add Row",
+                       "min":  0,
+                       "max":  0,
+                       "rows_per_page":  20,
+                       "collapsed":  "",
+                       "sub_fields":  [
+                                          {
+                                              "key":  "field_group_mri_product_cinematic_showcase_mri_product_cinematic_showcase_metrics_label",
+                                              "label":  "Label",
+                                              "name":  "label",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Live workflows",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter label",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_product_cinematic_showcase_mri_product_cinematic_showcase_metrics_mri_product_cinematic_showcase_metrics"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_product_cinematic_showcase_mri_product_cinematic_showcase_metrics_value",
+                                              "label":  "Value",
+                                              "name":  "value",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "124",
+                                              "maxlength":  "",
+                                              "placeholder":  "e.g. 45,000+",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_product_cinematic_showcase_mri_product_cinematic_showcase_metrics_mri_product_cinematic_showcase_metrics"
+                                          }
+                                      ]
+                   },
+                   {
+                       "key":  "field_group_mri_product_cinematic_showcase_mri_product_cinematic_showcase_image",
+                       "label":  "Image",
+                       "name":  "mri_product_cinematic_showcase_image",
+                       "aria-label":  "",
+                       "type":  "image",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "return_format":  "array",
+                       "preview_size":  "medium",
+                       "library":  "all",
+                       "min_width":  0,
+                       "min_height":  0,
+                       "min_size":  0,
+                       "max_width":  0,
+                       "max_height":  0,
+                       "max_size":  0,
+                       "mime_types":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_product_cinematic_showcase_mri_product_cinematic_showcase_cta",
+                       "label":  "Cta",
+                       "name":  "mri_product_cinematic_showcase_cta",
+                       "aria-label":  "",
+                       "type":  "link",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "return_format":  "array"
+                   }
+               ],
+    "location":  [
+                     [
+                         {
+                             "param":  "block",
+                             "operator":  "==",
+                             "value":  "acf/mri-product-cinematic-showcase"
+                         }
+                     ]
+                 ],
+    "menu_order":  0,
+    "position":  "normal",
+    "style":  "default",
+    "label_placement":  "top",
+    "instruction_placement":  "label",
+    "hide_on_screen":  "",
+    "active":  true,
+    "description":  "",
+    "show_in_rest":  1,
+    "display_title":  "",
+    "allow_ai_access":  false,
+    "ai_description":  ""
+}

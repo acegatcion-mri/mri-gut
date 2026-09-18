@@ -1,0 +1,327 @@
+﻿{
+    "key":  "group_mri_role_based_function_tabs",
+    "title":  "MRI Role Based Function Tabs",
+    "fields":  [
+                   {
+                       "key":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_heading",
+                       "label":  "Heading",
+                       "name":  "mri_role_based_function_tabs_heading",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Role-based function tabs",
+                       "maxlength":  "",
+                       "placeholder":  "Enter heading",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_mri_role_based_function_tabs_roles",
+                       "label":  "Roles",
+                       "name":  "mri_role_based_function_tabs_roles",
+                       "aria-label":  "",
+                       "type":  "repeater",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "layout":  "row",
+                       "button_label":  "Add Row",
+                       "min":  0,
+                       "max":  0,
+                       "rows_per_page":  20,
+                       "collapsed":  "",
+                       "sub_fields":  [
+                                          {
+                                              "key":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_id",
+                                              "label":  "ID",
+                                              "name":  "id",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "leasing",
+                                              "maxlength":  "",
+                                              "placeholder":  "e.g. marketing",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_mri_role_based_function_tabs_roles"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_label",
+                                              "label":  "Label",
+                                              "name":  "label",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Leasing",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter label",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_mri_role_based_function_tabs_roles"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_eyebrow",
+                                              "label":  "Eyebrow",
+                                              "name":  "eyebrow",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Featured",
+                                              "maxlength":  "",
+                                              "placeholder":  "Featured",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_mri_role_based_function_tabs_roles"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_title",
+                                              "label":  "Title",
+                                              "name":  "title",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Functions that accelerate leasing velocity",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter title",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_mri_role_based_function_tabs_roles"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_description",
+                                              "label":  "Description",
+                                              "name":  "description",
+                                              "aria-label":  "",
+                                              "type":  "textarea",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Surface the right deals, remove bottlenecks, and move opportunities to signed leases faster.",
+                                              "new_lines":  "",
+                                              "maxlength":  "",
+                                              "placeholder":  "Add supporting copy",
+                                              "rows":  "",
+                                              "parent_repeater":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_mri_role_based_function_tabs_roles"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_body",
+                                              "label":  "Body",
+                                              "name":  "body",
+                                              "aria-label":  "",
+                                              "type":  "textarea",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Workflow guidance helps teams prioritize what matters now.",
+                                              "new_lines":  "",
+                                              "maxlength":  "",
+                                              "placeholder":  "Add supporting copy",
+                                              "rows":  "",
+                                              "parent_repeater":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_mri_role_based_function_tabs_roles"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_kpi",
+                                              "label":  "KPI",
+                                              "name":  "kpi",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "24% faster lease cycle",
+                                              "maxlength":  "",
+                                              "placeholder":  "e.g. 45,000+",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_mri_role_based_function_tabs_roles"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_cta_label",
+                                              "label":  "CTA Label",
+                                              "name":  "cta_label",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "View leasing workflows",
+                                              "maxlength":  "",
+                                              "placeholder":  "Learn more",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_mri_role_based_function_tabs_roles"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_cta_href",
+                                              "label":  "CTA URL",
+                                              "name":  "cta_href",
+                                              "aria-label":  "",
+                                              "type":  "url",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "https://example.com/workflows/leasing",
+                                              "placeholder":  "https://example.com",
+                                              "parent_repeater":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_mri_role_based_function_tabs_roles"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_image",
+                                              "label":  "Image",
+                                              "name":  "image",
+                                              "aria-label":  "",
+                                              "type":  "image",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "return_format":  "array",
+                                              "preview_size":  "medium",
+                                              "library":  "all",
+                                              "min_width":  0,
+                                              "min_height":  0,
+                                              "min_size":  0,
+                                              "max_width":  0,
+                                              "max_height":  0,
+                                              "max_size":  0,
+                                              "mime_types":  "",
+                                              "parent_repeater":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_mri_role_based_function_tabs_roles"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_functions_functions",
+                                              "label":  "Functions",
+                                              "name":  "functions",
+                                              "aria-label":  "",
+                                              "type":  "repeater",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "layout":  "row",
+                                              "button_label":  "Add Row",
+                                              "min":  0,
+                                              "max":  0,
+                                              "rows_per_page":  20,
+                                              "collapsed":  "",
+                                              "sub_fields":  [
+                                                                 {
+                                                                     "key":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_functions_text",
+                                                                     "label":  "Text",
+                                                                     "name":  "text",
+                                                                     "aria-label":  "",
+                                                                     "type":  "text",
+                                                                     "instructions":  "",
+                                                                     "required":  false,
+                                                                     "conditional_logic":  false,
+                                                                     "wrapper":  {
+                                                                                     "width":  "",
+                                                                                     "class":  "",
+                                                                                     "id":  ""
+                                                                                 },
+                                                                     "default_value":  "Pipeline visibility across active deals",
+                                                                     "maxlength":  "",
+                                                                     "placeholder":  "Enter text",
+                                                                     "prepend":  "",
+                                                                     "append":  "",
+                                                                     "parent_repeater":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_functions_functions"
+                                                                 }
+                                                             ],
+                                              "parent_repeater":  "field_group_mri_role_based_function_tabs_mri_role_based_function_tabs_roles_mri_role_based_function_tabs_roles"
+                                          }
+                                      ]
+                   }
+               ],
+    "location":  [
+                     [
+                         {
+                             "param":  "block",
+                             "operator":  "==",
+                             "value":  "acf/mri-role-based-function-tabs"
+                         }
+                     ]
+                 ],
+    "menu_order":  0,
+    "position":  "normal",
+    "style":  "default",
+    "label_placement":  "top",
+    "instruction_placement":  "label",
+    "hide_on_screen":  "",
+    "active":  true,
+    "description":  "",
+    "show_in_rest":  1,
+    "display_title":  "",
+    "allow_ai_access":  false,
+    "ai_description":  ""
+}

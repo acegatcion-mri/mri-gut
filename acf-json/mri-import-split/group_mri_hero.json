@@ -1,0 +1,216 @@
+﻿{
+    "key":  "group_mri_hero",
+    "title":  "MRI Hero",
+    "fields":  [
+                   {
+                       "key":  "field_group_mri_hero_mri_hero_heading",
+                       "label":  "Heading",
+                       "name":  "mri_hero_heading",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Commercial property management software made simple.",
+                       "maxlength":  "",
+                       "placeholder":  "Enter heading",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_hero_mri_hero_content",
+                       "label":  "Content",
+                       "name":  "mri_hero_content",
+                       "aria-label":  "",
+                       "type":  "textarea",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Eliminate time-consuming admin with software trusted by 45,000+ clients worldwide.",
+                       "new_lines":  "",
+                       "maxlength":  "",
+                       "placeholder":  "Add supporting copy",
+                       "rows":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_hero_mri_hero_logo_image",
+                       "label":  "Logo Image",
+                       "name":  "mri_hero_logo_image",
+                       "aria-label":  "",
+                       "type":  "image",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "return_format":  "array",
+                       "preview_size":  "medium",
+                       "library":  "all",
+                       "min_width":  0,
+                       "min_height":  0,
+                       "min_size":  0,
+                       "max_width":  0,
+                       "max_height":  0,
+                       "max_size":  0,
+                       "mime_types":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_hero_mri_hero_benefits_mri_hero_benefits",
+                       "label":  "Benefits",
+                       "name":  "mri_hero_benefits",
+                       "aria-label":  "",
+                       "type":  "repeater",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "layout":  "row",
+                       "button_label":  "Add Row",
+                       "min":  0,
+                       "max":  0,
+                       "rows_per_page":  20,
+                       "collapsed":  "",
+                       "sub_fields":  [
+                                          {
+                                              "key":  "field_group_mri_hero_mri_hero_benefits_text",
+                                              "label":  "Text",
+                                              "name":  "text",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Exceptional customer services team support",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter text",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_hero_mri_hero_benefits_mri_hero_benefits"
+                                          }
+                                      ]
+                   },
+                   {
+                       "key":  "field_group_mri_hero_mri_hero_form_title",
+                       "label":  "Form Title",
+                       "name":  "mri_hero_form_title",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Book a demo",
+                       "maxlength":  "",
+                       "placeholder":  "Enter title",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_hero_mri_hero_embed_code",
+                       "label":  "Embed Code",
+                       "name":  "mri_hero_embed_code",
+                       "aria-label":  "",
+                       "type":  "textarea",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "\u003cdiv\u003eForm embed code\u003c/div\u003e",
+                       "new_lines":  "",
+                       "maxlength":  "",
+                       "placeholder":  "Add details",
+                       "rows":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_hero_mri_hero_footer",
+                       "label":  "Footer",
+                       "name":  "mri_hero_footer",
+                       "aria-label":  "",
+                       "type":  "textarea",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "No catches. No strings.",
+                       "new_lines":  "",
+                       "maxlength":  "",
+                       "placeholder":  "Add supporting copy",
+                       "rows":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_hero_mri_hero_terms_copy",
+                       "label":  "Terms Copy",
+                       "name":  "mri_hero_terms_copy",
+                       "aria-label":  "",
+                       "type":  "textarea",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "By submitting, you agree to our terms and privacy policy.",
+                       "new_lines":  "",
+                       "maxlength":  "",
+                       "placeholder":  "Add supporting copy",
+                       "rows":  ""
+                   }
+               ],
+    "location":  [
+                     [
+                         {
+                             "param":  "block",
+                             "operator":  "==",
+                             "value":  "acf/mri-hero"
+                         }
+                     ]
+                 ],
+    "menu_order":  0,
+    "position":  "normal",
+    "style":  "default",
+    "label_placement":  "top",
+    "instruction_placement":  "label",
+    "hide_on_screen":  "",
+    "active":  true,
+    "description":  "",
+    "show_in_rest":  1,
+    "display_title":  "",
+    "allow_ai_access":  false,
+    "ai_description":  ""
+}

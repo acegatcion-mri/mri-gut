@@ -1,0 +1,259 @@
+﻿{
+    "key":  "group_mri_pricing_plan_snapshot",
+    "title":  "MRI Pricing Plan Snapshot",
+    "fields":  [
+                   {
+                       "key":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_heading",
+                       "label":  "Heading",
+                       "name":  "mri_pricing_plan_snapshot_heading",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Simple plans that scale with you",
+                       "maxlength":  "",
+                       "placeholder":  "Enter heading",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans",
+                       "label":  "Plans",
+                       "name":  "mri_pricing_plan_snapshot_plans",
+                       "aria-label":  "",
+                       "type":  "repeater",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "layout":  "row",
+                       "button_label":  "Add Row",
+                       "min":  0,
+                       "max":  0,
+                       "rows_per_page":  20,
+                       "collapsed":  "",
+                       "sub_fields":  [
+                                          {
+                                              "key":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_name",
+                                              "label":  "Name",
+                                              "name":  "name",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Starter",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter text",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_price",
+                                              "label":  "Price",
+                                              "name":  "price",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "$199",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter text",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_cadence",
+                                              "label":  "Cadence",
+                                              "name":  "cadence",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "/month",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter text",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_description",
+                                              "label":  "Description",
+                                              "name":  "description",
+                                              "aria-label":  "",
+                                              "type":  "textarea",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "For teams validating workflow fit with a focused rollout.",
+                                              "new_lines":  "",
+                                              "maxlength":  "",
+                                              "placeholder":  "Add supporting copy",
+                                              "rows":  "",
+                                              "parent_repeater":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_featured",
+                                              "label":  "Featured",
+                                              "name":  "featured",
+                                              "aria-label":  "",
+                                              "type":  "true_false",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "ui":  1,
+                                              "default_value":  0,
+                                              "message":  "",
+                                              "ui_on_text":  "",
+                                              "ui_off_text":  "",
+                                              "parent_repeater":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_cta_label",
+                                              "label":  "CTA Label",
+                                              "name":  "cta_label",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Start free trial",
+                                              "maxlength":  "",
+                                              "placeholder":  "Learn more",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_cta_href",
+                                              "label":  "CTA URL",
+                                              "name":  "cta_href",
+                                              "aria-label":  "",
+                                              "type":  "url",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "https://example.com/pricing",
+                                              "placeholder":  "https://example.com",
+                                              "parent_repeater":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_features_features",
+                                              "label":  "Features",
+                                              "name":  "features",
+                                              "aria-label":  "",
+                                              "type":  "repeater",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "layout":  "row",
+                                              "button_label":  "Add Row",
+                                              "min":  0,
+                                              "max":  0,
+                                              "rows_per_page":  20,
+                                              "collapsed":  "",
+                                              "sub_fields":  [
+                                                                 {
+                                                                     "key":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_features_text",
+                                                                     "label":  "Text",
+                                                                     "name":  "text",
+                                                                     "aria-label":  "",
+                                                                     "type":  "text",
+                                                                     "instructions":  "",
+                                                                     "required":  false,
+                                                                     "conditional_logic":  false,
+                                                                     "wrapper":  {
+                                                                                     "width":  "",
+                                                                                     "class":  "",
+                                                                                     "id":  ""
+                                                                                 },
+                                                                     "default_value":  "Up to 10 users",
+                                                                     "maxlength":  "",
+                                                                     "placeholder":  "Enter text",
+                                                                     "prepend":  "",
+                                                                     "append":  "",
+                                                                     "parent_repeater":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_features_features"
+                                                                 }
+                                                             ],
+                                              "parent_repeater":  "field_group_mri_pricing_plan_snapshot_mri_pricing_plan_snapshot_plans_mri_pricing_plan_snapshot_plans"
+                                          }
+                                      ]
+                   }
+               ],
+    "location":  [
+                     [
+                         {
+                             "param":  "block",
+                             "operator":  "==",
+                             "value":  "acf/mri-pricing-plan-snapshot"
+                         }
+                     ]
+                 ],
+    "menu_order":  0,
+    "position":  "normal",
+    "style":  "default",
+    "label_placement":  "top",
+    "instruction_placement":  "label",
+    "hide_on_screen":  "",
+    "active":  true,
+    "description":  "",
+    "show_in_rest":  1,
+    "display_title":  "",
+    "allow_ai_access":  false,
+    "ai_description":  ""
+}

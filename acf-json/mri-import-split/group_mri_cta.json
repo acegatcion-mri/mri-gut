@@ -1,0 +1,83 @@
+﻿{
+    "key":  "group_mri_cta",
+    "title":  "MRI Cta",
+    "fields":  [
+                   {
+                       "key":  "field_group_mri_cta_mri_cta_text",
+                       "label":  "Text",
+                       "name":  "mri_cta_text",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Ready to dive deeper into MRI Software solutions?",
+                       "maxlength":  "",
+                       "placeholder":  "Enter text",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_cta_mri_cta_button",
+                       "label":  "Button",
+                       "name":  "mri_cta_button",
+                       "aria-label":  "",
+                       "type":  "link",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "return_format":  "array"
+                   },
+                   {
+                       "key":  "field_group_mri_cta_mri_cta_button_text",
+                       "label":  "Button Text",
+                       "name":  "mri_cta_button_text",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Get started",
+                       "maxlength":  "",
+                       "placeholder":  "Enter text",
+                       "prepend":  "",
+                       "append":  ""
+                   }
+               ],
+    "location":  [
+                     [
+                         {
+                             "param":  "block",
+                             "operator":  "==",
+                             "value":  "acf/mri-cta"
+                         }
+                     ]
+                 ],
+    "menu_order":  0,
+    "position":  "normal",
+    "style":  "default",
+    "label_placement":  "top",
+    "instruction_placement":  "label",
+    "hide_on_screen":  "",
+    "active":  true,
+    "description":  "",
+    "show_in_rest":  1,
+    "display_title":  "",
+    "allow_ai_access":  false,
+    "ai_description":  ""
+}

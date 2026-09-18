@@ -1,0 +1,199 @@
+﻿{
+    "key":  "group_mri_interactive_feature_stack",
+    "title":  "MRI Interactive Feature Stack",
+    "fields":  [
+                   {
+                       "key":  "field_group_mri_interactive_feature_stack_mri_interactive_feature_stack_heading",
+                       "label":  "Heading",
+                       "name":  "mri_interactive_feature_stack_heading",
+                       "aria-label":  "",
+                       "type":  "text",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "default_value":  "Interactive feature stack",
+                       "maxlength":  "",
+                       "placeholder":  "Enter heading",
+                       "prepend":  "",
+                       "append":  ""
+                   },
+                   {
+                       "key":  "field_group_mri_interactive_feature_stack_mri_interactive_feature_stack_items_mri_interactive_feature_stack_items",
+                       "label":  "Items",
+                       "name":  "mri_interactive_feature_stack_items",
+                       "aria-label":  "",
+                       "type":  "repeater",
+                       "instructions":  "",
+                       "required":  false,
+                       "conditional_logic":  false,
+                       "wrapper":  {
+                                       "width":  "",
+                                       "class":  "",
+                                       "id":  ""
+                                   },
+                       "layout":  "row",
+                       "button_label":  "Add Row",
+                       "min":  0,
+                       "max":  0,
+                       "rows_per_page":  20,
+                       "collapsed":  "",
+                       "sub_fields":  [
+                                          {
+                                              "key":  "field_group_mri_interactive_feature_stack_mri_interactive_feature_stack_items_id",
+                                              "label":  "ID",
+                                              "name":  "id",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "signal-layer",
+                                              "maxlength":  "",
+                                              "placeholder":  "e.g. marketing",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_interactive_feature_stack_mri_interactive_feature_stack_items_mri_interactive_feature_stack_items"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_interactive_feature_stack_mri_interactive_feature_stack_items_title",
+                                              "label":  "Title",
+                                              "name":  "title",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Signal Layer",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter title",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_interactive_feature_stack_mri_interactive_feature_stack_items_mri_interactive_feature_stack_items"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_interactive_feature_stack_mri_interactive_feature_stack_items_subtitle",
+                                              "label":  "Subtitle",
+                                              "name":  "subtitle",
+                                              "aria-label":  "",
+                                              "type":  "text",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Capture every event in real time",
+                                              "maxlength":  "",
+                                              "placeholder":  "Enter title",
+                                              "prepend":  "",
+                                              "append":  "",
+                                              "parent_repeater":  "field_group_mri_interactive_feature_stack_mri_interactive_feature_stack_items_mri_interactive_feature_stack_items"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_interactive_feature_stack_mri_interactive_feature_stack_items_detail",
+                                              "label":  "Detail",
+                                              "name":  "detail",
+                                              "aria-label":  "",
+                                              "type":  "textarea",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "default_value":  "Stream data from leasing, finance, and operations into one normalized model.",
+                                              "new_lines":  "",
+                                              "maxlength":  "",
+                                              "placeholder":  "Add details",
+                                              "rows":  "",
+                                              "parent_repeater":  "field_group_mri_interactive_feature_stack_mri_interactive_feature_stack_items_mri_interactive_feature_stack_items"
+                                          },
+                                          {
+                                              "key":  "field_group_mri_interactive_feature_stack_mri_interactive_feature_stack_items_bullets_bullets",
+                                              "label":  "Bullets",
+                                              "name":  "bullets",
+                                              "aria-label":  "",
+                                              "type":  "repeater",
+                                              "instructions":  "",
+                                              "required":  false,
+                                              "conditional_logic":  false,
+                                              "wrapper":  {
+                                                              "width":  "",
+                                                              "class":  "",
+                                                              "id":  ""
+                                                          },
+                                              "layout":  "row",
+                                              "button_label":  "Add Row",
+                                              "min":  0,
+                                              "max":  0,
+                                              "rows_per_page":  20,
+                                              "collapsed":  "",
+                                              "sub_fields":  [
+                                                                 {
+                                                                     "key":  "field_group_mri_interactive_feature_stack_mri_interactive_feature_stack_items_bullets_text",
+                                                                     "label":  "Text",
+                                                                     "name":  "text",
+                                                                     "aria-label":  "",
+                                                                     "type":  "text",
+                                                                     "instructions":  "",
+                                                                     "required":  false,
+                                                                     "conditional_logic":  false,
+                                                                     "wrapper":  {
+                                                                                     "width":  "",
+                                                                                     "class":  "",
+                                                                                     "id":  ""
+                                                                                 },
+                                                                     "default_value":  "Cross-platform connectors",
+                                                                     "maxlength":  "",
+                                                                     "placeholder":  "Enter text",
+                                                                     "prepend":  "",
+                                                                     "append":  "",
+                                                                     "parent_repeater":  "field_group_mri_interactive_feature_stack_mri_interactive_feature_stack_items_bullets_bullets"
+                                                                 }
+                                                             ],
+                                              "parent_repeater":  "field_group_mri_interactive_feature_stack_mri_interactive_feature_stack_items_mri_interactive_feature_stack_items"
+                                          }
+                                      ]
+                   }
+               ],
+    "location":  [
+                     [
+                         {
+                             "param":  "block",
+                             "operator":  "==",
+                             "value":  "acf/mri-interactive-feature-stack"
+                         }
+                     ]
+                 ],
+    "menu_order":  0,
+    "position":  "normal",
+    "style":  "default",
+    "label_placement":  "top",
+    "instruction_placement":  "label",
+    "hide_on_screen":  "",
+    "active":  true,
+    "description":  "",
+    "show_in_rest":  1,
+    "display_title":  "",
+    "allow_ai_access":  false,
+    "ai_description":  ""
+}

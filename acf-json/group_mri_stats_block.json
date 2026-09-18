@@ -1,0 +1,208 @@
+{
+    "key": "group_mri_stats_block",
+    "title": "MRI Stats Block",
+    "fields": [
+        {
+            "key": "field_group_mri_stats_block_mri_stats_block_items_mri_stats_block_items",
+            "label": "Items",
+            "name": "mri_stats_block_items",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Add enough items to explain the story clearly. Keep item length and structure consistent, and remove any unused example rows.",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "button_label": "Add Row",
+            "min": 0,
+            "max": 0,
+            "rows_per_page": 20,
+            "collapsed": "",
+            "sub_fields": [
+                {
+                    "key": "field_group_mri_stats_block_mri_stats_block_items_value",
+                    "label": "Value",
+                    "name": "value",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Use a current, source-approved MRI statistic. Add the source and review date to the campaign brief.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "45,000+",
+                    "maxlength": "",
+                    "placeholder": "e.g. 45,000+",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_group_mri_stats_block_mri_stats_block_items_mri_stats_block_items"
+                },
+                {
+                    "key": "field_6aa4a06019a27",
+                    "label": "Prefix",
+                    "name": "prefix",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "$",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_group_mri_stats_block_mri_stats_block_items_mri_stats_block_items"
+                },
+                {
+                    "key": "field_6aa4a04219a26",
+                    "label": "Number",
+                    "name": "number",
+                    "aria-label": "",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 450,
+                    "min": "",
+                    "max": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "step": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_group_mri_stats_block_mri_stats_block_items_mri_stats_block_items"
+                },
+                {
+                    "key": "field_6aa4a07219a28",
+                    "label": "Suffix",
+                    "name": "suffix",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "+",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_group_mri_stats_block_mri_stats_block_items_mri_stats_block_items"
+                },
+                {
+                    "key": "field_group_mri_stats_block_mri_stats_block_items_label",
+                    "label": "Label",
+                    "name": "label",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Use only current, source-approved proof. Avoid unsupported percentages, rankings, customer claims or guaranteed outcomes.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "clients worldwide",
+                    "maxlength": "",
+                    "placeholder": "Enter label",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_group_mri_stats_block_mri_stats_block_items_mri_stats_block_items"
+                },
+                {
+                    "key": "field_group_mri_stats_block_mri_stats_block_items_icon",
+                    "label": "Icon",
+                    "name": "icon",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Use a supported Bootstrap Icons class, for example “bi-check-circle”. Confirm the icon is available in the front-end build.",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "bi-graph-up-arrow",
+                    "maxlength": "",
+                    "placeholder": "e.g. bi-stars",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_group_mri_stats_block_mri_stats_block_items_mri_stats_block_items"
+                },
+                {
+                    "key": "field_6aa49f5f19a25",
+                    "label": "Icon Picker",
+                    "name": "icon_picker",
+                    "aria-label": "",
+                    "type": "icon_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "tabs": [
+                        "bi"
+                    ],
+                    "return_format": "string",
+                    "allow_in_bindings": 0,
+                    "library": "all",
+                    "default_value": {
+                        "type": null,
+                        "value": null
+                    },
+                    "parent_repeater": "field_group_mri_stats_block_mri_stats_block_items_mri_stats_block_items"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/mri-stats-block"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Defaults are MRI-focused examples for a commercial real estate marketing landing page. Adapt to the campaign audience, product and region; verify every claim, customer reference and legal statement before publishing.",
+    "show_in_rest": 1,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1789174911
+}
